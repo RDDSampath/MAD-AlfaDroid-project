@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/activity_exams.xml" value="0.264" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/activity_homeworks.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/activity_note_info.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/activity_notes.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/activity_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/activity_teachers.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/app_bar_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/dialog_add_exam.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/dialog_add_homework.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/dialog_add_note.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/dialog_add_subject.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/dialog_add_teacher.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/dialog_add_website.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/fragment_friday.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/fragment_monday.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/fragment_saturday.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/fragment_sunday.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/listview_homeworks_adapter.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/listview_notes_adapter.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/listview_teachers_adapter.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/listview_week_adapter.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/nav_header_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/switch_layout.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
