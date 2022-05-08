@@ -33,7 +33,7 @@
             android:layout_marginTop="2dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="2dp"
-            android:background="#FFEB3B"
+            android:background="#00FFFFFF"
             android:text="@string/title"
             android:textAlignment="center"
             android:textAllCaps="true"
