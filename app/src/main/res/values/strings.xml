@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TimeTable</string>
+    <string name="app_name" translatable="false">WorkDoro Time Table</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -19,7 +19,7 @@
 
     <!-- Main Activity strings -->
     <string name="timetable">TimeTable</string>
-    <string name="ulan_nurymov_gmail_com">ulan.nurymov@gmail.com</string>
+    <string name="AlfaDroid">AlfaDroid</string>
     <string name="seven_days_of_the_week">7 Days of the Week</string>
     <string name="subject">Subject</string>
     <string name="field_error">field can not be empty!</string>
@@ -27,11 +27,11 @@
     <string name="week">Week</string>
     <string name="delete">Delete</string>
     <string name="edit">Edit</string>
-    <string name="school_website">School website</string>
+    <string name="school_website">Course web</string>
     <string name="school_website_snackbar">Please, set URL of your school website in settings.</string>
 
-    <string name="add_subject">Add subject</string>
-    <string name="edit_subject">Edit subject</string>
+    <string name="add_subject">Create Subject</string>
+    <string name="edit_subject">Edit Subject</string>
     <string name="teacher">Teacher</string>
     <string name="room">Room</string>
     <string name="time">Time</string>
@@ -42,51 +42,51 @@
     <string name="subject_dialog">Subject:</string>
     <string name="teacher_dialog">Teacher:</string>
     <string name="room_dialog">Room:</string>
-    <string name="select_time">Select time</string>
+    <string name="select_time">Set</string>
     <string name="select_color">Select color</string>
-    <string name="choose_time">Choose time</string>
-    <string name="choose_date">Choose date</string>
-    <string name="choose_color">Choose color</string>
+    <string name="choose_time">Choose Time</string>
+    <string name="choose_date">Choose Date</string>
+    <string name="choose_color">Choose Color</string>
 
     <!-- Homeworks Activity strings -->
     <string name="title_activity_homeworks">HomeworksActivity</string>
     <string name="homeworks">Homeworks</string>
-    <string name="select_date">Select date</string>
+    <string name="select_date">Set Date</string>
     <string name="deadline_dialog">Deadline:</string>
     <string name="deadline">Deadline</string>
     <string name="description_dialog">Description:</string>
     <string name="desctiption">Desctiption</string>
     <string name="date_error">Date field can not be empty!</string>
-    <string name="edit_homework">Edit homework</string>
-    <string name="add_homework">Add homework</string>
+    <string name="edit_homework">Edit Homework</string>
+    <string name="add_homework">Create Homework</string>
     <string name="deadline_snackbar">"Deadline field can not be empty!</string>
     <string name="date">Date</string>
 
     <!-- Notes Activity strings -->
     <string name="notes">Notes</string>
     <string name="title_dialog">Title:</string>
-    <string name="add_note">Add note</string>
-    <string name="edit_note">Edit note</string>
+    <string name="add_note">ADD Note</string>
+    <string name="edit_note">Edit Note</string>
     <string name="title_error">Title field can not be empty!</string>
     <string name="title">Title</string>
     <string name="saved">Saved</string>
 
     <!-- Teachers Activity strings -->
     <string name="teachers">Teachers</string>
-    <string name="add_teacher">Add teacher</string>
-    <string name="edit_teacher">Edit teacher</string>
+    <string name="add_teacher">ADD Teacher</string>
+    <string name="edit_teacher">Edit Teacher</string>
     <string name="name_dialog">Name:</string>
     <string name="post_dialog">Post:</string>
     <string name="phonenumber_dialog">Phone:</string>
     <string name="email_dialog">Email:</string>
     <string name="name">Name</string>
-    <string name="phone_number">Phone number</string>
+    <string name="phone_number">Phone Number</string>
     <string name="post">Post</string>
     <string name="email">Email</string>
 
     <!-- Exams Activity strings -->
     <string name="exams">Exams</string>
-    <string name="add_exam">Add exam</string>
+    <string name="add_exam">ADD Exam</string>
     <string name="date_dialog">Date:</string>
     <string name="time_dialog">Time:</string>
 

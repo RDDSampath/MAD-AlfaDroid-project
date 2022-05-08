@@ -9,7 +9,7 @@
         android:id="@+id/saturdaylist"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#D707FFED"
+        android:background="@drawable/saturday"
         android:cacheColorHint="@android:color/transparent"
         android:divider="@null"
         android:listSelector="@android:color/transparent" />

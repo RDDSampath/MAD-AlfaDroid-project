@@ -9,7 +9,7 @@
         android:id="@+id/tuesdaylist"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#DDFFEB3B"
+        android:background="@drawable/tuesday"
         android:cacheColorHint="@android:color/transparent"
         android:divider="@null"
         android:listSelector="@android:color/transparent" />

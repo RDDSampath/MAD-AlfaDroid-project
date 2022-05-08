@@ -4,12 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/note1"
     tools:context=".activities.NoteInfoActivity">
 
-    <com.ulan.timetable.utils.LinedEditText
+    <TextView
+        android:id="@+id/text1000"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:padding="30dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="ADD Your Note" />
+
+    <com.dhanushka.timetable.utils.LinedEditText
         android:id="@+id/edittextNote"
         android:layout_width="match_parent"
-        android:layout_height="163dp"
+        android:layout_height="300dp"
         android:background="@null"
-        android:inputType="none" />
+        android:inputType="none"
+        android:padding="60dp"
+        app:layout_anchor="@+id/edittextNote"
+        app:layout_anchorGravity="center"
+        tools:ignore="MissingClass" />
+
 </android.support.design.widget.CoordinatorLayout>

@@ -16,10 +16,10 @@
             android:id="@+id/notelist"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:listSelector="@android:color/transparent"
+            android:background="@drawable/note"
             android:cacheColorHint="@android:color/transparent"
             android:divider="@null"
-            />
+            android:listSelector="@android:color/transparent" />
     </android.support.constraint.ConstraintLayout>
 
     <android.support.design.widget.FloatingActionButton
