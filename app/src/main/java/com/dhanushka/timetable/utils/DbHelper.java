@@ -343,7 +343,9 @@ public class DbHelper extends SQLiteOpenHelper{
     }
 
     /**
-     * Methods for Exams activity
+     * W.M.P.S Wijesundara
+     * IT20644512
+     * CRUD Of Meeting activity
      **/
     public void insertExam(Exam exam) {
         SQLiteDatabase db = this.getWritableDatabase();

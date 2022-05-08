@@ -1,11 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
+    //noinspection GradleCompatible
     compileSdkVersion 27
     defaultConfig {
         applicationId "com.ulan.timetable"
         minSdkVersion 21
-        targetSdkVersion 27
+        targetSdkVersion 32
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
