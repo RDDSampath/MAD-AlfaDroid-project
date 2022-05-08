@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_bold"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="WorkDoro"
+        android:text="@string/workdoro"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#212121"
         android:textSize="18sp" />
@@ -35,7 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/acme"
-        android:text="ALFADROID"
+        android:text="@string/alfadroid"
         android:textColor="#212121" />
 
 </LinearLayout>

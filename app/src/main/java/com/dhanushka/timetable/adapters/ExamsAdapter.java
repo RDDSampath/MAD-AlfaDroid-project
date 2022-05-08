@@ -14,6 +14,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.dhanushka.timetable.activities.ExamsActivity;
 import com.dhanushka.timetable.model.Exam;
 import com.dhanushka.timetable.R;
 import com.dhanushka.timetable.utils.AlertDialogsHelper;
@@ -41,7 +42,7 @@ public class ExamsAdapter extends ArrayAdapter<Exam> {
         ImageView popup;
     }
 
-    public ExamsAdapter(Activity activity, ListView listView, int resource, ArrayList<Exam> objects) {
+    public ExamsAdapter(ExamsActivity activity, ListView listView, int resource, ArrayList<Exam> objects) {
         super(activity, resource, objects);
         mActivity = activity;
         mListView = listView;
