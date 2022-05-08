@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_header_height"
-    android:background="#FFEB3B"
+    android:background="#BEFFE500"
     android:gravity="bottom"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -25,10 +25,10 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_bold"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="workdoro"
+        android:text="WORKDORO"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="#212121"
-        android:textSize="18sp" />
+        android:textColor="#BE00FF"
+        android:textSize="20dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -36,6 +36,6 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/acme"
         android:text="@string/alfadroid"
-        android:textColor="#212121" />
+        android:textColor="#000000" />
 
 </LinearLayout>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">WorkDoro Time Table</string>
+    <string name="app_name" translatable="false">WORKDORO</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -85,8 +85,8 @@
     <string name="email">Email</string>
 
     <!-- Exams Activity strings -->
-    <string name="exams">Exams</string>
-    <string name="add_exam">ADD Exam</string>
+    <string name="exams">Meeting</string>
+    <string name="add_exam">ADD Meeting</string>
     <string name="date_dialog">Date:</string>
     <string name="time_dialog">Time:</string>
 
