@@ -1,12 +1,17 @@
 <component name="libraryTable">
   <library name="Gradle: org.xdty.preference:color-picker:0.0.5@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/color-picker-0.0.5.aar/916e46e28639fcf94592788b3d719f61/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/color-picker-0.0.5.aar/916e46e28639fcf94592788b3d719f61/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/color-picker-0.0.5.aar/8dc575ffc13a63614b99be6b0aeebcba/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/color-picker-0.0.5.aar/8dc575ffc13a63614b99be6b0aeebcba/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f0d0481b50f53a15333db18601428a00/transformed/color-picker-0.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f0d0481b50f53a15333db18601428a00/transformed/color-picker-0.0.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f0d0481b50f53a15333db18601428a00/transformed/color-picker-0.0.5/AndroidManifest.xml" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xdty.preference/color-picker/0.0.5/ecba8c571a07d983e6c0a52e9631e141f8551b88/color-picker-0.0.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xdty.preference/color-picker/0.0.5/e83fb605c6b4d9c70ba191fa5ea16e8fbed44d44/color-picker-0.0.5-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

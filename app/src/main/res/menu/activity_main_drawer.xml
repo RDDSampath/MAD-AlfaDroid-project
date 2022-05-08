@@ -9,7 +9,7 @@
         <item
             android:id="@+id/schoolwebsitemenu"
             android:icon="@drawable/baseline_open_in_browser_black_18"
-            android:title="@string/course_web" />
+            android:title="course_web" />
     </group>
 
     <group android:id="@+id/menu_mid"
@@ -18,7 +18,7 @@
         <item
             android:id="@+id/exams"
             android:icon="@drawable/baseline_people_black_18"
-            android:title="@string/meeting" />
+            android:title="meeting" />
 
         <item
             android:id="@+id/teachers"

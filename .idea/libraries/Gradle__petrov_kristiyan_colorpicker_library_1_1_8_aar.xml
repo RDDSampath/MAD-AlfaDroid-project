@@ -1,12 +1,17 @@
 <component name="libraryTable">
   <library name="Gradle: petrov.kristiyan:colorpicker-library:1.1.8@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/colorpicker-library-1.1.8.aar/ddb95818137596bb5da75c6b62be7aba/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/colorpicker-library-1.1.8.aar/ddb95818137596bb5da75c6b62be7aba/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/colorpicker-library-1.1.8.aar/09199a3df6c5e05ab7026e16b25b6376/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/colorpicker-library-1.1.8.aar/09199a3df6c5e05ab7026e16b25b6376/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2827416da0bfb082fa91912c2db382a2/transformed/colorpicker-library-1.1.8/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2827416da0bfb082fa91912c2db382a2/transformed/colorpicker-library-1.1.8/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2827416da0bfb082fa91912c2db382a2/transformed/colorpicker-library-1.1.8/jars/classes.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/petrov.kristiyan/colorpicker-library/1.1.8/1105bddd0a48a6e53bd0689e142b49578f211175/colorpicker-library-1.1.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/petrov.kristiyan/colorpicker-library/1.1.8/63bb16a37853294ba7c486ad05b39dd969b5cf54/colorpicker-library-1.1.8-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

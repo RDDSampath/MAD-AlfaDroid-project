@@ -16,7 +16,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".3"
-            android:text="@string/title1"
+            android:text="title1"
             android:textColor="@android:color/black" />
 
         <EditText
@@ -24,7 +24,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".7"
-            android:hint="@string/add_the_title"
             android:imeOptions="actionDone"
             android:inputType="text"
             android:singleLine="true" />
@@ -40,7 +39,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".3"
-            android:text="@string/link1"
+            android:text="link1"
             android:textColor="@android:color/black" />
 
         <EditText
@@ -48,7 +47,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".7"
-            android:hint="@string/add_the_meeting_link"
             android:imeOptions="actionDone"
             android:inputType="text"
             android:singleLine="true" />
@@ -64,7 +62,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".3"
-            android:text="@string/id1"
+            android:text="id1"
             android:textColor="@android:color/black" />
 
         <EditText
@@ -72,7 +70,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".7"
-            android:hint="@string/add_the_meeting_id"
             android:imeOptions="actionDone"
             android:inputType="number"
             android:singleLine="true" />
