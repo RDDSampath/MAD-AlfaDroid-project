@@ -22,7 +22,7 @@
         android:layout_height="300dp"
         android:background="@null"
         android:inputType="none"
-        android:padding="60dp"
+        android:paddingBottom="60dp"
         app:layout_anchor="@+id/edittextNote"
         app:layout_anchorGravity="center"
         tools:ignore="MissingClass" />
