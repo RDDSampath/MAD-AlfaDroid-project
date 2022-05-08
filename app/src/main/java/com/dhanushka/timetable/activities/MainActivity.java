@@ -36,7 +36,7 @@ import com.dhanushka.timetable.utils.DailyReceiver;
 
 import java.util.Calendar;
 
-import static com.ulan.timetable.utils.BrowserUtil.openUrlInChromeCustomTab;
+import static com.dhanushka.timetable.utils.BrowserUtil.openUrlInChromeCustomTab;
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {

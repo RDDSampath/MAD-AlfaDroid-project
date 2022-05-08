@@ -85,8 +85,8 @@
     <string name="email">Email</string>
 
     <!-- Exams Activity strings -->
-    <string name="exams">Exams</string>
-    <string name="add_exam">Add exam</string>
+    <string name="Meeting">Meeting</string>
+    <string name="add_Meeting">Add Meeting</string>
     <string name="date_dialog">Date:</string>
     <string name="time_dialog">Time:</string>
 
@@ -100,5 +100,20 @@
     <string name="do_not_have_lessons">You do not have lessons!</string>
     <string name="logo">logo</string>
     <string name="alfadroid">ALFADROID</string>
+    <string name="meeting">Meeting</string>
+    <string name="course_web">Course web</string>
+
+
+    <string name="workdoro">WorkDoro</string>
+
+    <string name="link">Link</string>
+
+    <string name="id">ID</string>
+    <string name="title1">Title :</string>
+    <string name="link1">Link :</string>
+    <string name="id1">ID :</string>
+    <string name="add_the_title">Add the Title</string>
+    <string name="add_the_meeting_id">Add the Meeting ID</string>
+    <string name="add_the_meeting_link">Add the Meeting Link</string>
 
 </resources>

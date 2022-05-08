@@ -2,21 +2,22 @@
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content" >
 
-    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    <android.support.v7.widget.CardView
         android:id="@+id/exams_cardview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:orientation="horizontal"
-        card_view:cardCornerRadius="5dp"
-        card_view:cardElevation="5dp">
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:background="@drawable/card_background_selector"
             android:descendantFocusability="afterDescendants"
             android:orientation="vertical"
@@ -32,93 +33,91 @@
                 android:layout_marginStart="34dp"
                 android:layout_marginTop="2dp"
                 android:layout_marginEnd="8dp"
-                android:text="@string/subject"
+                android:text="@string/title"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/popupbtn"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                card_view:layout_constraintEnd_toStartOf="@+id/popupbtn" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <View
                 android:id="@+id/line"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_marginStart="2dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginEnd="2dp"
                 android:background="@android:color/black"
-                card_view:layout_constraintEnd_toEndOf="parent"
-                card_view:layout_constraintStart_toStartOf="parent"
-                card_view:layout_constraintTop_toBottomOf="@id/subjectexams" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/subjectexams" />
 
             <TextView
                 android:id="@+id/teacherexams"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="24dp"
                 android:layout_marginEnd="34dp"
-                android:text="@string/teacher"
+                android:text="@string/id"
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
-                card_view:layout_constraintEnd_toEndOf="parent"
-                card_view:layout_constraintHorizontal_bias="0.466"
-                card_view:layout_constraintStart_toEndOf="@+id/imageView2"
-                card_view:layout_constraintTop_toBottomOf="@+id/line" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.466"
+                app:layout_constraintStart_toEndOf="@+id/imageView2"
+                app:layout_constraintTop_toBottomOf="@+id/line" />
 
             <TextView
                 android:id="@+id/roomexams"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="2dp"
-                android:text="@string/room"
+                android:layout_marginTop="16dp"
+                android:text="@string/link"
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
-                card_view:layout_constraintEnd_toEndOf="@+id/teacherexams"
-                card_view:layout_constraintStart_toEndOf="@+id/imageView"
-                card_view:layout_constraintTop_toBottomOf="@+id/teacherexams"
-                card_view:layout_constraintVertical_bias="1.0" />
+                app:layout_constraintEnd_toEndOf="@+id/teacherexams"
+                app:layout_constraintStart_toEndOf="@+id/imageView"
+                app:layout_constraintTop_toBottomOf="@+id/teacherexams" />
 
             <TextView
                 android:id="@+id/dateexams"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/date"
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
-                app:layout_constraintTop_toBottomOf="@+id/roomexams"
-                card_view:layout_constraintEnd_toStartOf="@+id/guideline2"
-                card_view:layout_constraintStart_toEndOf="@+id/imageView3" />
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toEndOf="@+id/imageView3"
+                app:layout_constraintTop_toBottomOf="@+id/roomexams" />
 
             <TextView
                 android:id="@+id/timeexams"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="16dp"
                 android:text="@string/time"
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
-                app:layout_constraintTop_toBottomOf="@+id/roomexams"
-                card_view:layout_constraintEnd_toEndOf="@+id/teacherexams"
-                card_view:layout_constraintStart_toStartOf="@+id/guideline2" />
+                app:layout_constraintEnd_toEndOf="@+id/teacherexams"
+                app:layout_constraintStart_toStartOf="@+id/guideline2"
+                app:layout_constraintTop_toBottomOf="@+id/roomexams" />
 
             <android.support.constraint.Guideline
                 android:id="@+id/guideline2"
@@ -133,34 +132,34 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="2dp"
                 android:background="?selectableItemBackgroundBorderless"
-                card_view:layout_constraintEnd_toEndOf="parent"
-                card_view:layout_constraintTop_toTopOf="@+id/subjectexams"
-                card_view:srcCompat="@drawable/baseline_expand_more_black_24" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/subjectexams"
+                app:srcCompat="@drawable/baseline_expand_more_black_24" />
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                app:srcCompat="@drawable/baseline_room_black_24"
-                card_view:layout_constraintStart_toStartOf="@+id/line"
-                card_view:layout_constraintTop_toBottomOf="@+id/teacherexams" />
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="@+id/line"
+                app:layout_constraintTop_toBottomOf="@+id/teacherexams"
+                app:srcCompat="@drawable/baseline_room_black_24" />
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/baseline_person_black_24"
-                card_view:layout_constraintStart_toStartOf="@+id/line"
-                card_view:layout_constraintTop_toTopOf="@+id/teacherexams" />
+                app:layout_constraintStart_toStartOf="@+id/line"
+                app:layout_constraintTop_toTopOf="@+id/teacherexams"
+                app:srcCompat="@drawable/baseline_subject_black_24" />
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/baseline_access_time_black_24"
-                card_view:layout_constraintStart_toStartOf="@+id/imageView"
-                card_view:layout_constraintTop_toTopOf="@+id/dateexams" />
+                app:layout_constraintStart_toStartOf="@+id/imageView"
+                app:layout_constraintTop_toTopOf="@+id/dateexams"
+                app:srcCompat="@drawable/baseline_access_time_black_24" />
 
         </android.support.constraint.ConstraintLayout>
     </android.support.v7.widget.CardView>
