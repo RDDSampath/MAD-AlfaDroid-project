@@ -9,8 +9,7 @@
     <com.ulan.timetable.utils.LinedEditText
         android:id="@+id/edittextNote"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="none"
+        android:layout_height="163dp"
         android:background="@null"
-        />
+        android:inputType="none" />
 </android.support.design.widget.CoordinatorLayout>

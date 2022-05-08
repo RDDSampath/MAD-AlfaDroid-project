@@ -9,8 +9,8 @@
         android:id="@+id/tuesdaylist"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:listSelector="@android:color/transparent"
+        android:background="#DDFFEB3B"
         android:cacheColorHint="@android:color/transparent"
         android:divider="@null"
-        />
+        android:listSelector="@android:color/transparent" />
 </FrameLayout>

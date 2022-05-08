@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="15dp">
+    android:padding="20dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,10 +16,11 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".3"
+            android:fontFamily="@font/acme"
             android:text="@string/subject_dialog"
             android:textAlignment="textStart"
-            android:textColor="@android:color/black"
-            android:textSize="14sp" />
+            android:textColor="#8002AC"
+            android:textSize="18dp" />
 
         <EditText
             android:id="@+id/subject_dialog"
@@ -40,10 +42,11 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".3"
-            android:text="@string/teacher_dialog"
+            android:fontFamily="@font/acme"
+            android:text="Lecturer"
             android:textAlignment="textStart"
-            android:textColor="@android:color/black"
-            android:textSize="14sp" />
+            android:textColor="#8002AC"
+            android:textSize="18dp" />
 
         <EditText
             android:id="@+id/teacher_dialog"
@@ -65,10 +68,11 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".3"
-            android:text="@string/room_dialog"
+            android:fontFamily="@font/acme"
+            android:text="Place"
             android:textAlignment="textStart"
-            android:textColor="@android:color/black"
-            android:textSize="14sp" />
+            android:textColor="#8002AC"
+            android:textSize="18dp" />
 
         <EditText
             android:id="@+id/room_dialog"
@@ -91,19 +95,21 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".3"
+            android:fontFamily="@font/acme"
             android:text="@string/time_from_dialog"
             android:textAlignment="textStart"
-            android:textColor="@android:color/black"
-            android:textSize="14sp" />
+            android:textColor="#8002AC"
+            android:textSize="18dp" />
 
         <TextView
             android:id="@+id/from_time"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
             android:layout_weight=".3"
-            android:text="@string/select_time"
+            android:fontFamily="@font/acme"
+            android:text="set"
             android:textAllCaps="true"
-            android:textColor="@android:color/black"
+            android:textColor="#8002AC"
             android:textSize="18sp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -118,19 +124,21 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".3"
+            android:fontFamily="@font/acme"
             android:text="@string/time_to_dialog"
             android:textAlignment="textStart"
-            android:textColor="@android:color/black"
-            android:textSize="14sp" />
+            android:textColor="#8002AC"
+            android:textSize="18dp" />
 
         <TextView
             android:id="@+id/to_time"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
             android:layout_weight=".3"
-            android:text="@string/select_time"
+            android:fontFamily="@font/acme"
+            android:text="set"
             android:textAllCaps="true"
-            android:textColor="@android:color/black"
+            android:textColor="#8002AC"
             android:textSize="18sp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -145,14 +153,16 @@
             android:id="@+id/select_color"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:layout_marginRight="50dp"
             android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="5dp"
             android:background="@color/white"
-            android:text="@string/select_color"
+            android:fontFamily="@font/acme"
+            android:text="set color"
             android:textAlignment="center"
             android:textAllCaps="true"
+            android:textColor="#1900FD"
             android:textSize="18sp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -160,22 +170,31 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <Button
-            android:text="@string/cancel"
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/cancel"
-            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+        android:orientation="horizontal"
+        android:layout_marginVertical="@dimen/activity_vertical_margin"
+        >
 
         <Button
-            android:text="@string/save"
-            android:layout_weight="1"
+            android:id="@+id/cancel"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#EF5252"
+            android:fontFamily="@font/acme"
+            android:text="@string/cancel"
+            android:textColor="#FFFFFF" />
+
+        <Button
             android:id="@+id/save"
-            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#5DD162"
+            android:fontFamily="@font/acme"
+            android:text="@string/save"
+            android:textColor="#FFFCFC" />
 
     </LinearLayout>
 

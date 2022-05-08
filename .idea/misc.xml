@@ -3,6 +3,53 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.129" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/drawable/baseline_book_24.xml" value="0.129" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/drawable/card_background.xml" value="0.129" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/drawable/card_background_selector.xml" value="0.129" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/drawable/card_state_pressed.xml" value="0.129" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.129" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/drawable/ic_menu_camera.xml" value="0.129" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.129" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/drawable/side_nav_bar.xml" value="0.129" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/drawable/tab_background.xml" value="0.129" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/font/acme.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/font/allerta.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/font/poppins_bold.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/activity_exams.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/activity_homeworks.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/activity_note_info.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/activity_notes.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/activity_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/activity_teachers.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/app_bar_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/dialog_add_exam.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/dialog_add_homework.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/dialog_add_note.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/dialog_add_subject.xml" value="0.1962962962962963" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/dialog_add_teacher.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/dialog_add_website.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/fragment_friday.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/fragment_monday.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/fragment_saturday.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/fragment_sunday.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/fragment_thursday.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/fragment_tuesday.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/fragment_wednesday.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/listview_exams_adapter.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/listview_homeworks_adapter.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/listview_notes_adapter.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/listview_teachers_adapter.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/listview_week_adapter.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/nav_header_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/layout/switch_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/menu/activity_main_drawer.xml" value="0.25025641025641027" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/menu/main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/menu/popup_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/menu/toolbar_action_mode.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/Alfadroid/MAD-AlfaDroid-project/app/src/main/res/xml/settings.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/activity_exams.xml" value="0.264" />
         <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/activity_homeworks.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Dhanushka/Desktop/New folder (2)/TimeTable/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
