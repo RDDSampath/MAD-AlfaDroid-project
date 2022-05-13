@@ -29,13 +29,13 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity
-            android:name=".activities.HomeworksActivity"
+            android:name=".activities.HomeworkActivity"
             android:label="@string/homeworks"
             android:parentActivityName=".activities.MainActivity" />
 
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".activities.HomeworksActivity" />
+            android:value=".activities.HomeworkActivity" />
 
         <activity
             android:name=".activities.NotesActivity"

@@ -5,22 +5,42 @@
     android:id="@+id/coordinatorHomeworks"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.HomeworksActivity"
+    tools:context=".activities.HomeworkActivity"
     android:orientation="vertical">
 
     <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/color11">
+        android:background="@drawable/gradient_background_homework">
 
 
         <ListView
             android:id="@+id/homeworklist"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:listSelector="@android:color/transparent"
+            android:layout_marginTop="316dp"
+            android:background="#af86ea"
+            android:src="@drawable/gradient_background_homework"
             android:cacheColorHint="@android:color/transparent"
             android:divider="@null"
-            />
+            android:listSelector="@android:color/transparent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="-28dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="310dp"
+            android:backgroundTint="@color/color10"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toTopOf="@+id/homeworklist"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.84"
+            app:srcCompat="@drawable/com" />
+
     </android.support.constraint.ConstraintLayout>
 
     <android.support.design.widget.FloatingActionButton

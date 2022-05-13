@@ -36,7 +36,7 @@ import com.dhanushka.timetable.utils.DailyReceiver;
 
 import java.util.Calendar;
 
-import static com.ulan.timetable.utils.BrowserUtil.openUrlInChromeCustomTab;
+import static com.dhanushka.timetable.utils.BrowserUtil.openUrlInChromeCustomTab;
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -192,7 +192,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(teacher);
                 return true;
             case R.id.homework:
-                Intent homework = new Intent(MainActivity.this, HomeworksActivity.class);
+                Intent homework = new Intent(MainActivity.this, HomeworkActivity.class);
                 startActivity(homework);
                 return true;
             case R.id.notes:

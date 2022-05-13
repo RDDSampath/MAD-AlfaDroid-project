@@ -10,7 +10,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AbsListView;
+import android.widget.ImageButton;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.dhanushka.timetable.adapters.HomeworksAdapter;
 import com.dhanushka.timetable.model.Homework;
@@ -21,31 +23,40 @@ import com.dhanushka.timetable.utils.DbHelper;
 import java.util.ArrayList;
 
 
-public class HomeworksActivity extends AppCompatActivity {
+public class HomeworkActivity extends AppCompatActivity {
 
-    private Context context = this;
+    private HomeworkActivity context = this;
     private ListView listView;
     private HomeworksAdapter adapter;
     private DbHelper db;
     private int listposition = 0;
+    
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_homeworks);
+        setContentView(R.layout.activity_homework);
         initAll();
+
+
     }
+
+
 
     private void initAll() {
         setupAdapter();
         setupListViewMultiSelect();
         setupCustomDialog();
+
     }
 
     private void setupAdapter() {
         db = new DbHelper(context);
         listView = findViewById(R.id.homeworklist);
-        adapter = new HomeworksAdapter(HomeworksActivity.this, listView, R.layout.listview_homeworks_adapter, db.getHomework());
+        adapter = new HomeworksAdapter(HomeworkActivity.this, listView, R.layout.listview_homework, db.getHomework());
         listView.setAdapter(adapter);
     }
 
@@ -103,6 +114,6 @@ public class HomeworksActivity extends AppCompatActivity {
 
     private void setupCustomDialog() {
         final View alertLayout = getLayoutInflater().inflate(R.layout.dialog_add_homework, null);
-        AlertDialogsHelper.getAddHomeworkDialog(HomeworksActivity.this, alertLayout, adapter);
+        AlertDialogsHelper.getAddHomeworkDialog(HomeworkActivity.this, alertLayout, adapter);
     }
 }

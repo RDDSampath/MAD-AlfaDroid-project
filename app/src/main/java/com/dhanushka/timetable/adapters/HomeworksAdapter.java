@@ -14,6 +14,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.dhanushka.timetable.activities.HomeworkActivity;
 import com.dhanushka.timetable.model.Homework;
 import com.dhanushka.timetable.R;
 import com.dhanushka.timetable.utils.AlertDialogsHelper;
@@ -39,7 +40,7 @@ public class HomeworksAdapter extends ArrayAdapter<Homework> {
         ImageView popup;
     }
 
-    public HomeworksAdapter(Activity activity, ListView listView,  int resource, ArrayList<Homework> objects) {
+    public HomeworksAdapter(HomeworkActivity activity, ListView listView, int resource, ArrayList<Homework> objects) {
         super(activity, resource, objects);
         mActivity = activity;
         mListView = listView;
