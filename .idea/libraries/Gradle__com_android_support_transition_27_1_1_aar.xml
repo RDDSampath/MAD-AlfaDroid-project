@@ -3,10 +3,13 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/14a0639e9182abf7d67b1ec52aa5002f/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/14a0639e9182abf7d67b1ec52aa5002f/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/092718275a20a274731bf3dca5fc1f67/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/092718275a20a274731bf3dca5fc1f67/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/25312e068c7017339bbc437d184627fa/transformed/transition-27.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/25312e068c7017339bbc437d184627fa/transformed/transition-27.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/25312e068c7017339bbc437d184627fa/transformed/transition-27.1.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/transition/27.1.1/88ebe6765790253d410e51a3952571565f2040e9/transition-27.1.1-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

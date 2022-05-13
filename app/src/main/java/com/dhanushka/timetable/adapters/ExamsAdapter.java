@@ -23,6 +23,10 @@ import com.dhanushka.timetable.utils.DbHelper;
 import java.util.ArrayList;
 import java.util.Objects;
 
+/**
+ * To connect the classes of Meeting activity
+ **/
+
 
 public class ExamsAdapter extends ArrayAdapter<Exam> {
 

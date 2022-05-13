@@ -1,5 +1,9 @@
 package com.dhanushka.timetable.model;
 
+/**
+ * Model Class Of Meeting activity
+ **/
+
 public class Exam {
     private String subject, teacher, time, date, room;
     private int id, color;
@@ -14,6 +18,10 @@ public class Exam {
         this.room = room;
         this.color = color;
     }
+
+    /**
+     * Methods of Meeting activity to set and get data
+     **/
 
     public String getSubject() {
         return subject;

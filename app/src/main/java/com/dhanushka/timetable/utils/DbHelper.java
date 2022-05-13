@@ -343,8 +343,15 @@ public class DbHelper extends SQLiteOpenHelper{
     }
 
     /**
-     * Methods for Exams activity
+     * W.M.P.S Wijesundara
+     * IT20644512
+     * CRUD Of Meeting activity
+     *
+     *
+     * Insert Of Meeting activity
+     *
      **/
+
     public void insertExam(Exam exam) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
@@ -357,6 +364,10 @@ public class DbHelper extends SQLiteOpenHelper{
         db.insert(EXAMS, null, contentValues);
         db.close();
     }
+
+    /**
+     * Update Of Meeting activity
+     **/
 
     public void updateExam(Exam exam) {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -371,11 +382,19 @@ public class DbHelper extends SQLiteOpenHelper{
         db.close();
     }
 
+    /**
+     * Delete Of Meeting activity
+     **/
+
     public void deleteExamById(Exam exam) {
         SQLiteDatabase db = this.getWritableDatabase();
         db.delete(EXAMS, EXAMS_ID + " =? ", new String[] {String.valueOf(exam.getId())});
         db.close();
     }
+
+    /**
+     * View Of Meeting activity
+     **/
 
     public ArrayList<Exam> getExam() {
         SQLiteDatabase db = this.getWritableDatabase();

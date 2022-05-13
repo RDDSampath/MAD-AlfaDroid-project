@@ -10,7 +10,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AbsListView;
+import android.widget.Button;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.dhanushka.timetable.adapters.ExamsAdapter;
 import com.dhanushka.timetable.model.Exam;
@@ -20,19 +22,42 @@ import com.dhanushka.timetable.utils.DbHelper;
 
 import java.util.ArrayList;
 
+/**
+ * Body Of Meeting activity
+ **/
+
 public class ExamsActivity extends AppCompatActivity {
 
     private Context context = this;
     private ListView listView;
     private ExamsAdapter adapter;
     private DbHelper db;
+    Button deleteBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exams);
         initAll();
+
+
+        /**
+         * Toast massage Of Delete
+
+
+        deleteBtn = (Button)findViewById(R.id.delete_popup);
+
+        deleteBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(ExamsActivity.this, "Edit",Toast.LENGTH_SHORT).show();
+            }
+        });
+         **/
+
+
     }
+
 
     private void initAll() {
         setupAdapter();
@@ -102,4 +127,14 @@ public class ExamsActivity extends AppCompatActivity {
         final View alertLayout = getLayoutInflater().inflate(R.layout.dialog_add_exam, null);
         AlertDialogsHelper.getAddExamDialog(ExamsActivity.this, alertLayout, adapter);
     }
+
+
+    /**
+     * Toast Massage on create
+     **/
+    public void displayToast(View view) {
+        Toast.makeText(ExamsActivity.this, "Saved",Toast.LENGTH_SHORT).show();
+    }
+
+
 }
