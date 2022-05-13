@@ -84,7 +84,7 @@
     <string name="post">Post</string>
     <string name="email">Email</string>
 
-    <!-- Exams Activity strings -->
+    <!-- MeetingHub Activity strings -->
     <string name="exams">Meeting</string>
     <string name="add_exam">ADD Meeting</string>
     <string name="date_dialog">Date:</string>

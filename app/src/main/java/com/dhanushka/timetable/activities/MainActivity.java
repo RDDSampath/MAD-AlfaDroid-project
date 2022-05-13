@@ -143,6 +143,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     }
     @Override
+    /**
+     * Back to page
+     **/
     public void onBackPressed() {
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
@@ -153,6 +156,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     @Override
+    /**
+     * Main menu
+     **/
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
@@ -162,6 +168,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_settings:
+                /**
+                 * link to Setting Activity
+                 **/
                 Intent settings = new Intent(MainActivity.this, SettingsActivity.class);
                 startActivity(settings);
                 return true;
@@ -190,6 +199,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 Intent teacher = new Intent(MainActivity.this, TeachersActivity.class);
                 startActivity(teacher);
                 return true;
+            /**
+             * link to home work
+             **/
             case R.id.homework:
                 Intent homework = new Intent(MainActivity.this, HomeworksActivity.class);
                 startActivity(homework);

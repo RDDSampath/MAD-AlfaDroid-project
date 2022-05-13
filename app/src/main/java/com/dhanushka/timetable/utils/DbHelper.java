@@ -135,7 +135,7 @@ public class DbHelper extends SQLiteOpenHelper{
     }
 
     /**
-     * Methods for Week fragments
+     * Time Table crud
      **/
     public void insertWeek(Week week){
         SQLiteDatabase db = this.getWritableDatabase();
@@ -193,6 +193,7 @@ public class DbHelper extends SQLiteOpenHelper{
 
     /**
      * Methods for Homeworks activity
+     *
      **/
     public void insertHomework(Homework homework) {
         SQLiteDatabase db = this.getWritableDatabase();

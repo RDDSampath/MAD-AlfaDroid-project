@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/note1"
     tools:context=".activities.NoteInfoActivity">
 
     <TextView
@@ -19,8 +18,8 @@
     <com.dhanushka.timetable.utils.LinedEditText
         android:id="@+id/edittextNote"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:background="@null"
+        android:layout_height="324dp"
+        android:background="#FFFEFE"
         android:inputType="none"
         android:paddingBottom="60dp"
         app:layout_anchor="@+id/edittextNote"
