@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.support.customtabs.CustomTabsIntent;
 
+// to open the meeting link
 
 public class BrowserUtil {
     public static void openUrlInChromeCustomTab(Context context, String url) {

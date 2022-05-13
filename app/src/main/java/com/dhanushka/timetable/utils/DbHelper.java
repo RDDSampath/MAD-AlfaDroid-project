@@ -64,6 +64,10 @@ public class DbHelper extends SQLiteOpenHelper{
         super(context , DB_NAME, null, DB_VERSION);
     }
 
+    /**
+     * database creation
+     **/
+
      public void onCreate(SQLiteDatabase db) {
         String CREATE_TIMETABLE = "CREATE TABLE " + TIMETABLE + "("
                 + WEEK_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
@@ -135,7 +139,7 @@ public class DbHelper extends SQLiteOpenHelper{
     }
 
     /**
-     * Methods for Week fragments
+     * database insert method
      **/
     public void insertWeek(Week week){
         SQLiteDatabase db = this.getWritableDatabase();
@@ -152,11 +156,20 @@ public class DbHelper extends SQLiteOpenHelper{
         db.close();
     }
 
+    /**
+     * database delete method
+     **/
+
     public void deleteWeekById(Week week) {
         SQLiteDatabase db = this.getWritableDatabase();
         db.delete(TIMETABLE, WEEK_ID + " = ? ", new String[]{String.valueOf(week.getId())});
         db.close();
     }
+
+
+    /**
+     * database update method
+     **/
 
     public void updateWeek(Week week) {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -170,6 +183,10 @@ public class DbHelper extends SQLiteOpenHelper{
         db.update(TIMETABLE, contentValues, WEEK_ID + " = " + week.getId(), null);
         db.close();
     }
+
+    /**
+     * database view method
+     **/
 
     public ArrayList<Week> getWeek(String fragment){
         SQLiteDatabase db = this.getWritableDatabase();
@@ -343,10 +360,11 @@ public class DbHelper extends SQLiteOpenHelper{
     }
 
     /**
+     * *********************************************************************************************
      * W.M.P.S Wijesundara
      * IT20644512
      * CRUD Of Meeting activity
-     *
+     * *********************************************************************************************
      *
      * Insert Of Meeting activity
      *
@@ -393,7 +411,7 @@ public class DbHelper extends SQLiteOpenHelper{
     }
 
     /**
-     * View Of Meeting activity
+     * View  Of Meeting activity
      **/
 
     public ArrayList<Exam> getExam() {
